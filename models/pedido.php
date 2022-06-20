@@ -15,7 +15,7 @@ echo "<h4>Quantidade: " . $qnt . "</h4>";
 if (isset($_POST['receber'])) {
     echo "<h4>Modo de reber: " . $_POST['receber'] . "</h4>";
 } else {
-    echo "Você nao escolheu nenhum metodo de recebimento"
+    echo "Você nao escolheu nenhum método de recebimento";
 }
 echo "<br><br><br><br><hr>";
 
